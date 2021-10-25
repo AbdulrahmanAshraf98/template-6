@@ -81,8 +81,8 @@ button{
     left: 0;
     background-color:#111111;
     z-index: 999999;
-    animation:pro-loader 1.3s linear;
-    -webkit-animation:pro-loader 1.3s linear;
+    animation:pro-loader 2s linear;
+    -webkit-animation:pro-loader 2s linear;
     z-index: 999999999999;
     visibility: hidden;
 }
@@ -103,8 +103,8 @@ button{
     margin-top: -13px;
     margin-left: -13px;
     border-radius: 60px;
-    animation: loader 1.3s linear infinite ;
-    -webkit-animation: loader 1.3s linear infinite ;
+    animation: loader 2s linear infinite ;
+    -webkit-animation: loader 2s linear infinite ;
 }
 @keyframes loader{
     0%{
@@ -812,7 +812,9 @@ footer .container .row>.content:hover a{
 
 /* ------------ product------------------------------- */
 /* ------------ Home page -------------------------- */
+/* ------------ Media Query -------------------------- */
 @media (max-width: 1119px) {
+    /* ------------ hero-section----------------------*/
     .hero-section .container .slider .left
     {
         left: -2%;
@@ -832,6 +834,7 @@ footer .container .row>.content:hover a{
         width: 50px;
         height: 50px;
     }
+   /* ------------ hero-section----------------------*/
     
 
 }
@@ -994,9 +997,9 @@ footer .container .row>.content:hover a{
         margin-left: 1.5%;
     }
     /* ------------ hero-section-------------------------------*/
-     /* ------------ product-------------------------------*/
+    /* ------------- product-----------------------------------*/
      .product{
-        padding: 5% 0 20%;
+        padding: 5% 0 25%;
      }
      .product .container .row{
          gap:150px;
@@ -1080,6 +1083,7 @@ footer .container .row>.content:hover a{
     }
 
      /* ------------ product-------------------------------*/
+     /* ------------ footer--------------------------------*/
      footer>.page-up{
         left: 47%;
      }
@@ -1105,11 +1109,12 @@ footer .container .row>.content:hover a{
         width: 100%;
         text-align: center;
     }
-     
+    /* ------------ footer-------------------------------*/
     /* ------------ Home page -------------------------- */
 }
 
 @media (max-width:767px) {
+    /* ------------ hero-section----------------------*/
     .hero-section .container .slider .shape{
         width: 31%;
 
@@ -1133,9 +1138,11 @@ footer .container .row>.content:hover a{
         top: 46.5%;
 
     }
+   /* ------------ hero-section----------------------*/
 }
 @media (max-width:629px)
 {
+    /* ------------ hero-section----------------------*/
     .hero-section .container .slider .left {
         left: -1%;
         top: 44%;
@@ -1146,11 +1153,13 @@ footer .container .row>.content:hover a{
         top: 44%;
 
     }
+    /* ------------ hero-section----------------------*/
 }
 @media (max-width:575px){
     .container{
         width: 90%;
     }
+    /* ------------ nav-------------------------------*/
     nav{
         padding: 5% 0;
     }
@@ -1160,6 +1169,8 @@ footer .container .row>.content:hover a{
     nav .container .row .logo, nav .container .row .icon{
         width: 20%;
     }
+    /* ------------ nav-------------------------------*/
+    /* ------------ hero-section----------------------*/
 
     .hero-section .container .slider {
         padding: 250px 0 54px 20px;
@@ -1183,6 +1194,8 @@ footer .container .row>.content:hover a{
         padding: 7.5% 3%;
         margin-left: 2.5%;
     }
+    /* ------------ hero-section----------------------*/
+    /* ------------ product --------------------------*/
     .product{
         padding: 15% 0 250px;
     }
@@ -1274,7 +1287,8 @@ footer .container .row>.content:hover a{
     .product .container .row .right-side .grid .new-comment .item .content ul{
         padding: 0% 0 5% 0;
     }
-
+     /* ------------ product --------------------------*/
+     /* ------------ footer --------------------------*/
     footer>.page-up{
         left: 43%;
     }
@@ -1293,8 +1307,11 @@ footer .container .row>.content:hover a{
     footer .container .row>.content{
         text-align: unset;
     }
+    /* ------------ footer --------------------------*/
+    /* ------------ search-model --------------------*/
     .search-model .container .row .form input
     {
     	width:90%;
     }
+    /* ------------ search-model --------------------*/
 }
