@@ -1197,11 +1197,11 @@ footer .container .row>.content:hover a{
     /* ------------ hero-section----------------------*/
     /* ------------ product --------------------------*/
     .product{
-        padding: 15% 0 250px;
+        padding: 15% 0 300px;
     }
     .product .container .row
     {
-        gap:230px;
+        gap:270px;
     }
 
     .product .container .row .left-side .row
