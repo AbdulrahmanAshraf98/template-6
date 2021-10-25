@@ -965,12 +965,12 @@ footer .container .row>.content:hover a{
     }
     .hero-section .container .slider .left {
         left: -1%;
-        top: 46.5%;
+        top: 46.7%;
 
     }
     .hero-section .container .slider .right{
         right: -1%;
-        top: 46.5%;
+        top: 46.7%;
 
     }
     .hero-section .container .slider .flex-colum .label
@@ -1113,7 +1113,7 @@ footer .container .row>.content:hover a{
     /* ------------ Home page -------------------------- */
 }
 
-@media (max-width:767px) {
+@media (max-width:769px) {
     /* ------------ hero-section----------------------*/
     .hero-section .container .slider .shape{
         width: 31%;
@@ -1130,12 +1130,12 @@ footer .container .row>.content:hover a{
     }
     .hero-section .container .slider .left {
         left: -1%;
-        top: 46.5%;
+        top: 47%;
 
     }
     .hero-section .container .slider .right{
         right: -1%;
-        top: 46.5%;
+        top: 47%;
 
     }
    /* ------------ hero-section----------------------*/
