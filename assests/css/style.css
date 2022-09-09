@@ -1054,6 +1054,9 @@ footer .container .row>.content:hover a{
    .product .container .grid .left-side .row .grid .item{
     width: 45%;
    }
+   .product .container .grid .right-side .grid .grid .item {
+    width: 40%;
+}
 }
 
 @media (max-width:575px){
@@ -1120,6 +1123,13 @@ footer .container .row>.content:hover a{
     .product .container .grid .right-side .grid .grid .title>h3
     {
         font-size:13px;
+    }
+    .product .container .grid .right-side .grid .grid .filter-btns{
+        flex: 1 !important;
+
+    }
+    .product .container .grid .right-side .grid .grid .item {
+        width: 100%;
     }
   
     .product .container .grid .right-side .grid .new-comment .item{
