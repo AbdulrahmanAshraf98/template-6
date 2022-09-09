@@ -1054,9 +1054,9 @@ footer .container .row>.content:hover a{
    .product .container .grid .left-side .row .grid .item{
     width: 45%;
    }
-   .product .container .grid .right-side .grid .grid .item {
-    width: 40%;
-}
+   .product .container .grid .right-side .grid .grid .item{
+    width: 100%;
+   }
 }
 
 @media (max-width:575px){
