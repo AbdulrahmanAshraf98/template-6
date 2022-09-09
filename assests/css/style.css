@@ -325,13 +325,14 @@ nav .container .row .icon>.row>a .search-on
     display: flex;
     justify-content: center;
     align-items: center;
-height: 60px;
+    height: 60px;
+    transform: translate(0,-50%);
 }
 .cursor-btns .shape::after {
     content: '';
     display: block;
     position: absolute;
-   
+    
    
 }
 .cursor-btns .btn-right::after
