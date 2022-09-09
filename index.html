@@ -75,27 +75,38 @@
     <header class="hero-section">
                 <div class="container">  
                     <div class="slider">
-                        <a class="shape btn-left"> 
-                        </a>
-                        <span class="fas fa-angle-left left"></span>
-                        <a class="shape btn-right"></a>
-                       <span class="fas fa-angle-right right"></span>
-                       <div class="flex-colum">
-                           <div class="label"><p>Adventure</p></div>
+                       <div class="slide">
+                         
+                       <div class="row wrap slide-content">
+                         
                            <div class="content">
+                            <div class="label"><p>Adventure</p></div>
                                <h1>Fate / Stay Night: Unlimited Blade Works</h1>
                                <p>After 30 days of travel across the world...</p>
                            </div>
                            <a><span>Watch Now </span><i class="fas fa-angle-right"></i></a>   
                        </div>
+                       <div class="cursor-btns">
+                        <div class="shape btn-left"> 
+                            <span class="fas fa-angle-left arrow"></span>
+                        </div>
                        
+                        <div class="shape btn-right">
+                            
+                                <span class="fas fa-angle-right arrow"></span>
+                        
+                           
+                        </div>
+                       
+                    </div> 
+                       </div>
                     </div>    
              </div>
     </header>
     <!-- header end -->
     <section class="product">
         <div class="container">
-            <div class="row">
+            <div class="grid">
                 <div class="left-side">
                     <div class="row">
                         <div class="trending grid">
@@ -498,29 +509,32 @@
                     </div>
                 </div>
                 <aside class="right-side">
+                    <input type="radio" name="categories" id="day">
+                    <input type="radio" name="categories" id="week">
+                    <input type="radio" name="categories" id="month">
+                    <input type="radio" name="categories" id="years">
                     <div class="grid">
-                                <input type="radio" name="categories" id="day">
-                                <input type="radio" name="categories" id="week">
-                                <input type="radio" name="categories" id="month">
-                                <input type="radio" name="categories" id="years">
+                               
                         <div class="top-view grid" >
-                                     <div class="title">
+                                  <div class="filter">
+                                    <div class="title">
                                         <h3>TOP VIEWS</h3>
                                      </div>
-                                <div class="filiter row">
-                                    <div >
+                                <div class="filter-btns row">
+                                    <div class="filter-option">
                                         <label class="r-btn" for="day">day 
                                     </div>
-                                    <div >
+                                    <div class="filter-option">
                                         <label class="r-btn" for="week">week   
                                     </div>
-                                    <div >
+                                    <div  class="filter-option">
                                         <label class="r-btn" for="month">month     
                                     </div>
-                                    <div >
+                                    <div  class="filter-option">
                                         <label class="r-btn" for="years">years      
                                     </div>
                                 </div> 
+                                  </div>
                                 
                                 <div class="item years ">
                                     <div class="img">
