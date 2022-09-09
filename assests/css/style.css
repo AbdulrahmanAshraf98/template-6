@@ -358,7 +358,7 @@ height: 60px;
 /* ------------ hero-section------------------------------- */
 /* ------------ product------------------------------- */
 .product{
-    padding:0 0 10% 0;
+    padding:2rem 0;
 }
 .product .container .grid{  
     gap: 5%;
